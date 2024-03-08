@@ -73,6 +73,7 @@ async def submit_topic(
 ):
     request_queue.append(topic)
     background_tasks.add_task(process_queue)
+
     return templates.TemplateResponse(
         "index.html",
         {"request": request, "status": 200, "message": f"Received topic: {topic}"},
