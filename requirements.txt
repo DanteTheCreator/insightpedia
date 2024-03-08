@@ -1,0 +1,10 @@
+openai==1.2.0
+asgiref==3.5.0
+fastapi==0.70.0
+uvicorn==0.23.2
+Jinja2==3.1.2
+httpx==0.24.1
+pymongo==4.0.1
+pydantic==1.9.0
+python-multipart==0.0.6
+wikipedia==1.4.0
