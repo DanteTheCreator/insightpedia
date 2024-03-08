@@ -26,9 +26,9 @@ This command will build the necessary Docker images and start the containers.
 ## Running
 
 - Build and start containers
-- Have a server running in LM Studio, with LLM (app tested on Mistral). *If not using LM Studio, change api link in* ./analysis/analyzer.py
-- Make sure port 8000 is free
+- Have a server running in LM Studio, with LLM (app tested on Mistral). *If not using LM Studio, change api link in* ./analysis/analyzer.py 
+- Make sure port 8000 is available
 
 ## Usage
 
-- You should be able to visit your localhost:8000 where you should see a single input and submit. You can submit different topics over and over again, app will take care of it in the background. App just submits answrs to the DB per assignment, it does not show results.
+- You should be able to visit your localhost:8000 where you should see a single input and submit. You can submit different topics over and over again, the app will take care of it in the background. The app just submits answers to the DB per assignment, it does not show results.
